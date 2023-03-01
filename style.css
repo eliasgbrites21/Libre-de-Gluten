@@ -1,0 +1,62 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 16px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
+body{
+    display: flexbox;
+    background-color: bisque;
+    font-family: "Bebas Neue";
+}
+
+.container_header{
+    background-color: rgb(236, 203, 93);
+    width: 100vw;
+    height: 10vh;
+}
+.text_header{
+    font-size: 2rem;
+}
+
+.section_menu{
+    margin: 5vh;
+    text-align: center;
+}
+.menu{
+    align-items: center;
+}
+button{
+    width: 80vw;
+    margin: 1vh;
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: 0.15rem solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: rgb(241, 235, 215);
+    background-color: rgb(199, 164, 48);
+}
+
+button:hover{
+    transform: scale(1.15);
+}
+
+.disclaimer_container{
+    height: 10vh;
+    width: 100vw;
+    padding: 10vh;
+    font-style: italic;
+    position: absolute;
+}
+
+.disclaimer{
+    position: relative;
+    
+}
