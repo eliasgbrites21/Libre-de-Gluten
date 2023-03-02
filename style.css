@@ -16,12 +16,17 @@ body{
 
 .container_header{
     background-color: rgb(236, 203, 93);
+    display: flex;
     width: 100vw;
     height: 10vh;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-.text_header{
-    font-size: 2rem;
+
+.text_header{   
+    font-size: 2rem;   
 }
 
 .section_menu{
@@ -55,10 +60,10 @@ button:hover{
     width: 100vw;
     padding: 10vh;
     font-style: italic;
-    position: absolute;
+    text-align: center;
 }
 
 .disclaimer{
-    position: relative;
+    align-items: center;
     
 }
