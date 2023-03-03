@@ -4,6 +4,7 @@ const dondeComoPag= "./donde_como1.html";
 const dondeComproPag= href="./donde_compro.html";
 const comoComoPag= href="./como_como.html";
 const queTeInvitoPag= href="./que_te_invito.html";
+const primerosPasosPag= href="./primeros_pasos.html";
 const goHome= href="./index.html";
 
 
@@ -26,6 +27,11 @@ let queInvito=document.getElementById("queInvito")
 if(dondeComo){
     queInvito.addEventListener("click",()=>redirect4(queTeInvitoPag));
 }
+
+let primerosPasos=document.getElementById("firstsSteps")
+if(primerosPasos){
+    primerosPasos.addEventListener("click",()=>redirectPP(primerosPasosPag));
+}
 document.getElementById("menuDiv").addEventListener("click",()=>redirect(goHome));
 
 
@@ -47,4 +53,8 @@ function redirect3(){
 
 function redirect4(){
 window.location.href=queTeInvitoPag;
+}
+
+function redirectPP(){
+    window.location.href=primerosPasosPag;
 }

@@ -26,7 +26,7 @@ body{
 }
 
 .text_header{   
-    font-size: 2rem;   
+    font-size: 7vh;   
 }
 
 .section_menu{
@@ -66,4 +66,13 @@ button:hover{
 .disclaimer{
     align-items: center;
     
+}
+
+.text_section{
+    margin-top: 10vh;
+    background-color: rgb(236, 203, 93);
+}
+
+.firsts_steps_title{
+    font-size: 6vh;
 }
