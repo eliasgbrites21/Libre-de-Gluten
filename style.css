@@ -20,13 +20,19 @@ body{
     width: 100vw;
     height: 10vh;
     cursor: pointer;
-    text-align: center;
     justify-content: center;
-    align-items: center;
+    user-select: none;
 }
 
-.text_header{   
-    font-size: 7vh;   
+.text_header{ 
+    font-size: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_header{
+    width: 10vh;
 }
 
 .section_menu{
@@ -69,10 +75,31 @@ button:hover{
 }
 
 .text_section{
-    margin-top: 10vh;
+
     background-color: rgb(236, 203, 93);
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 2vw;
+    border-radius: 1vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .firsts_steps_title{
-    font-size: 6vh;
+    margin-bottom: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_ol{
+    margin-left: 3vw;
+}
+
+.logo_title{
+    margin: 1vw;
+    height: 3vw;
+    width: 3vh;
 }
