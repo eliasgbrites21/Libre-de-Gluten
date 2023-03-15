@@ -2,10 +2,10 @@
 
 const dondeComoPag= "./donde_como1.html";
 const dondeComproPag= href="./donde_compro.html";
-const comoComoPag= href="./como_como.html";
+const comoComoPag= href="/menu/comoComo/como_como.html";
 const queTeInvitoPag= href="./que_te_invito.html";
 const primerosPasosPag= href="./primeros_pasos.html";
-const goHome= href="./index.html";
+const goHome= href="/index.html";
 
 
 let dondeComo=document.getElementById("dondeComo")
