@@ -18,21 +18,21 @@ body{
     background-color: rgb(236, 203, 93);
     display: flex;
     width: 100vw;
-    height: 10vh;
+    min-height: clamp(2rem, 10svh+1rem);
     cursor: pointer;
     justify-content: center;
     user-select: none;
 }
 
 .text_header{ 
-    font-size: 7vh;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .logo_header{
-    width: 10vh;
+    width: 2rem;
 }
 
 .section_menu{
@@ -102,4 +102,20 @@ button:hover{
     margin: 1vw;
     height: 3vw;
     width: 3vh;
+}
+
+.div_ol{
+    background-color: rgb(233, 156, 126);
+    border-radius: 1vw;
+}
+.ol_title_div{
+    background-color:rgb(233, 194, 179);
+}
+.ordered_list_div{
+    text-align: justify;
+    margin-left: 2vw;
+}
+
+#desayunoList{
+    display: none;
 }
