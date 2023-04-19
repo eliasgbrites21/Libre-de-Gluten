@@ -5,7 +5,7 @@ const dondeComproPag= href="./donde_compro.html";
 const comoComoPag= href="/menu/comoComo/como_como.html";
 const queTeInvitoPag= href="./que_te_invito.html";
 const primerosPasosPag= href="./primeros_pasos.html";
-const goHome= href="/index.html";
+const goHome= href="./index.html";
 
 
 let dondeComo=document.getElementById("dondeComo")
@@ -58,3 +58,10 @@ window.location.href=queTeInvitoPag;
 function redirectPP(){
     window.location.href=primerosPasosPag;
 }
+
+const desayunoButton = document.getElementById('desayunoButton');
+const desayunoList = document.getElementById('desayunoList');
+
+desayunoButton.addEventListener('click', function() {
+    desayunoList.classList.toggle('show');
+});

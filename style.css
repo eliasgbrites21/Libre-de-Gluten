@@ -2,6 +2,13 @@
 padding:0;
 box-sizing: border-box;
 }
+
+:root{
+    --header-color: rgb(236, 203, 93);
+    --button-bc: rgb(199, 164, 48);
+    --text-bc: rgb(236, 203, 93);
+    --text-color: rgb(241, 235, 215);
+}
 html{
     scroll-behavior: smooth;
     font-size: 16px
@@ -15,7 +22,7 @@ body{
 }
 
 .container_header{
-    background-color: rgb(236, 203, 93);
+    background-color: var(--header-color);
     display: flex;
     width: 100vw;
     min-height: clamp(2rem, 10svh+1rem);
@@ -52,8 +59,8 @@ button{
     border-radius: 1rem;
     border: 0.15rem solid rgba(0, 0, 0, 0.3);
     box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.5);
-    color: rgb(241, 235, 215);
-    background-color: rgb(199, 164, 48);
+    color: var(--text-color);
+    background-color: var(--button-bc);
     cursor: pointer;
 }
 
@@ -76,7 +83,7 @@ button:hover{
 
 .text_section{
 
-    background-color: rgb(236, 203, 93);
+    background-color: var(--text-bc);
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -105,11 +112,12 @@ button:hover{
 }
 
 .div_ol{
-    background-color: rgb(233, 156, 126);
+    background-color: var(--text-bc);
     border-radius: 1vw;
 }
 .ol_title_div{
-    background-color:rgb(233, 194, 179);
+    background-color:var(--button-bc);
+    color: var(--text-color);
 }
 .ordered_list_div{
     text-align: justify;
@@ -118,4 +126,12 @@ button:hover{
 
 #desayunoList{
     display: none;
+}
+
+#desayunoList{
+    display: none;
+}
+
+#desayunoList.show{
+    display: block;
 }
