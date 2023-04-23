@@ -16,7 +16,7 @@ html{
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
 body{
-    display: flexbox;
+    display: grid;
     background-color: bisque;
     font-family: "Bebas Neue";
 }
@@ -43,15 +43,20 @@ body{
 }
 
 .section_menu{
-    margin: 5vh;
+    display: grid;
+    justify-items: center;
+    margin: 2vw;
     text-align: center;
+    justify-content: center;
 }
+
 .menu{
-    align-items: center;
+    display: grid;
 }
+
 button{
     width: 80vw;
-    margin: 1vh;
+    margin: 0.5vw;
     font-family: "Bebas Neue";
     font-size: 1.5rem;
     font-weight: bold;
@@ -107,31 +112,33 @@ button:hover{
 
 .logo_title{
     margin: 1vw;
-    height: 3vw;
-    width: 3vh;
+    width: 80vw;
 }
 
 .div_ol{
+    display: none;
     background-color: var(--text-bc);
-    border-radius: 1vw;
+    width: 80vw;
+    margin: 1vw;
+    padding: 1em;
+    border-radius: 1rem;
 }
 .ol_title_div{
+    display: grid;
+    align-items: center;
     background-color:var(--button-bc);
     color: var(--text-color);
+    height: 130%;
+    border-radius: 1vw;
+
 }
 .ordered_list_div{
     text-align: justify;
-    margin-left: 2vw;
+    padding: 1em;
 }
 
-#desayunoList{
-    display: none;
-}
 
-#desayunoList{
-    display: none;
-}
-
-#desayunoList.show{
-    display: block;
+.div_ol.show{
+    display: grid;
+    justify-content: center;
 }

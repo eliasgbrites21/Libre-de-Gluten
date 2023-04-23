@@ -2,7 +2,7 @@
 
 const dondeComoPag= "./donde_como1.html";
 const dondeComproPag= href="./donde_compro.html";
-const comoComoPag= href="/menu/comoComo/como_como.html";
+const comoComoPag= href="./como_como.html";
 const queTeInvitoPag= href="./que_te_invito.html";
 const primerosPasosPag= href="./primeros_pasos.html";
 const goHome= href="./index.html";
@@ -64,4 +64,11 @@ const desayunoList = document.getElementById('desayunoList');
 
 desayunoButton.addEventListener('click', function() {
     desayunoList.classList.toggle('show');
+});
+
+const almuerzoButton = document.getElementById('almuerzoButton');
+const almuerzoList = document.getElementById('almuerzoList');
+
+almuerzoButton.addEventListener('click', function() {
+    almuerzoList.classList.toggle('show');
 });
