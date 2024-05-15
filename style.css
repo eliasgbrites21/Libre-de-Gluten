@@ -20,7 +20,9 @@ body{
     background-color: bisque;
     font-family: "Bebas Neue";
 }
-
+a{
+    color: var(--text-color);
+}
 .container_header{
     background-color: var(--header-color);
     display: flex;
